@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;0,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    line-height: 1.5;
+    font-weight: 200;
+    font-family: 'Roboto', sans-serif;
+}
+.first_part{
+    background: url(images/image3.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 85vh;
+    border: solid lightblue;
+}
+.text{
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 40vh;
+    padding-left: 23px;
+    color: black;
+    font-size: 1.8rem;
+}
+.explain{
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    
+}
+.text2{
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+    font-weight: bolder;
+    padding: 30px;
+}
+.text3{
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+    font-weight: bolder;
+    padding: 50px;
+}
+.c{
+    display: inline-block;
+    text-align: center;
+    font-size: medium;
+    font-weight: normal;
+    width: 1000px;
+    padding-left: 90px;
+}
+
+.work{
+    position: sticky;
+    display: inline-block; 
+    padding: 30px;
+    padding-left: 150px;
+    grid-template-columns: repeat(auto-fit,minmax(320px, 1fr));
+}
+.card{
+    max-width: 320px;
+    height: 510px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px rgb(2, 2, 2, 0.2);
+    background-color: white;
+    color: black;
+    font-weight: 400;
+    font-size: medium;
+    transition: 0.3s ease-in-out;
+}
+.card_content{
+    padding: 10px;
+    border: solid lightblue;
+}
+.card_content h3 {
+    padding: 5px;
+    margin-bottom: 10px;
+    font-weight: 900;
+    text-align: center;
+}
+.card:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+.more{
+    height: 150px;
+    background-color: black;
+    text-align: center;
+}

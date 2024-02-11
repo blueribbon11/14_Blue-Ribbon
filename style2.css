@@ -1,0 +1,42 @@
+.text
+{
+    max-height: 100vh;
+}
+.main-services{
+    padding: 20px;
+    padding-top: 165px;
+    display: flex;
+    gap: 15px;
+    background-color: antiquewhite;
+    background-position: cover;
+}
+.inner-services-content{
+    flex: 1 1 300px;
+    padding: 1rem 3rem;
+    text-align: center;
+}
+.inner-services-content h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.inner-services-content p{
+    font-size: large;
+    line-height: 2;
+}
+.service-icon i{
+    font-size: 4rem;
+    width: 8rem;
+    height: 400px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 8rem;
+    background: var(--mainafterclr);
+    color: var(--mainclr);
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: .3s;
+}
+.service-icon i:hover{
+    color: white;
+    background: var(--mainclr);
+}
